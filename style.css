@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Background color for the entire page */
+}
+
+.wrapper {
+  text-align: center;
+  background-color: #fff; /* Background color for the wrapper div */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, p, button {
+  font-size: 1.5em; /* Increase font size for all texts */
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1em; /* Adjust button text size */
+  cursor: pointer;
+  background-color: #3498db; /* Button background color */
+  color: #fff; /* Button text color */
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #2980b9; /* Button background color on hover */
+}
+ul.container{
+  list-style-type:none
+}
